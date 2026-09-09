@@ -1,10 +1,14 @@
 <div align="center">
 
+<img src="assets/devqa-logo.png" width="180" />
+
 # DevQA
 
-**IntelliJ IDEA Plugin for Spring Boot Project Intelligence & Pre-QA Analysis**
+### IntelliJ IDEA Plugin for Spring Boot Project Intelligence & Pre-QA Analysis
 
-DevQA helps Spring Boot developers understand their repositories, surface project structure, and build stronger software quality awareness directly inside IntelliJ IDEA.
+**Understand • Analyze • Validate**
+
+DevQA helps Spring Boot developers understand their repositories, analyze project structure, and build software quality awareness directly inside IntelliJ IDEA.
 
 [Watch the Demo on LinkedIn](https://www.linkedin.com/posts/ahmedramadanmohamedsmaha_java-springboot-intellijidea-activity-7503421471629762560-otMz)
 
@@ -12,115 +16,106 @@ DevQA helps Spring Boot developers understand their repositories, surface projec
 
 ---
 
-## About DevQA
+## 🚀 About DevQA
 
-DevQA is a long-term developer tooling project built around a roadmap of **30+ major features** focused on project intelligence, architecture understanding, software quality analysis, testing, developer productivity, and pre-QA engineering workflows.
+DevQA is a developer tooling project built around a roadmap of **30+ major features** focused on:
 
-The project is being developed as an IntelliJ IDEA plugin so analysis and quality insights stay close to the developer workflow instead of living in a separate external tool.
+- Project Intelligence
+- Architecture Understanding
+- Software Quality Analysis
+- Testing Intelligence
+- Developer Productivity
+- Pre-QA Engineering Workflows
 
-> **Current status:** Feature 1 — **Project Brain** has reached its first implementation milestone and is currently under testing, validation, and production hardening.
+The goal is to bring intelligent repository understanding closer to developers inside their daily IDE workflow.
 
-## Project Brain
+---
 
-Project Brain is the foundation for the rest of DevQA. It is designed to build an initial understanding of a Spring Boot repository and provide a reusable project model for future DevQA capabilities.
+## 🧠 Feature 1 — Project Brain (Under Testing)
 
-Current capabilities include:
+**Project Brain** is the foundation of DevQA.
 
-- Scanning and understanding project structure
-- Discovering and classifying project files
-- Analyzing Java source code and Spring components
-- Identifying application layers and component roles
-- Detecting configuration, resource, build, SQL, and documentation assets
-- Presenting repository analysis through an interactive IntelliJ IDEA dashboard
-- Providing repository-level inventory and project metrics
+It builds an initial understanding of a Spring Boot repository by scanning project structure, discovering assets, and creating a reusable project model for future intelligence features.
 
-## Current Demo Snapshot
+### Current Capabilities
 
-The current Project Brain milestone can analyze a Spring Boot repository and present information such as:
+✅ Spring Boot project detection  
+✅ Project structure analysis  
+✅ Java source discovery  
+✅ Spring component analysis  
+✅ Controllers detection  
+✅ Services detection  
+✅ Repositories detection  
+✅ Entities detection  
+✅ DTOs detection  
+✅ Configuration and resource discovery  
+✅ SQL and documentation asset detection  
+✅ Interactive IntelliJ IDEA dashboard
 
-- Project files
-- Java classes
-- Controllers
-- Services
-- Repositories
-- Entities
-- DTOs
-- Project file groups and source locations
+---
 
-The screenshots in this repository show DevQA analyzing a sample **HumanResourcesSystem** Spring Boot project.
+## 📸 Demo Showcase
 
-## Roadmap — 30 Major Features
+The current milestone demonstrates DevQA analyzing a Spring Boot project and presenting:
 
-### System Foundation
-1. **Project Brain** — Under Testing
-2. Code Understanding Engine — Planned
-3. Business Brain — Planned
+- Project overview
+- Repository inventory
+- Application layers
+- Component classification
+- Project files structure
 
-### Intent Assurance
-4. Requirement Understanding — Planned
-5. Business Confirmation Engine — Planned
-6. Requirement Gap Detection — Planned
+Sample project analyzed:
 
-### System Intelligence
-7. Change Impact Analysis — Planned
-8. Dependency Intelligence — Planned
-9. Architecture Intelligence — Planned
-10. API Intelligence — Planned
-11. Database Intelligence — Planned
-12. JPA / Hibernate Analyzer — Planned
-13. SQL Intelligence — Planned
+**HumanResourcesSystem — Spring Boot Application**
 
-### Engineering Assurance
-14. Security Analyzer — Planned
-15. Code Quality Analyzer — Planned
-16. Testing Intelligence — Planned
-17. QA Scenario Generator — Planned
-18. Automated Test Generator — Planned
-19. Performance Analyzer — Planned
-20. Concurrency Analyzer — Planned
-21. Transaction Intelligence — Planned
-22. Microservices Intelligence — Planned
-23. Observability Intelligence — Planned
+---
 
-### AI & Enterprise
-24. AI Explanation Engine — Planned
-25. AI Fix Recommendation — Planned
-26. Project Health Score — Planned
-27. Reports & Dashboard — Planned
-28. Enterprise Management — Planned
-29. CI/CD & Git Integration — Planned
-30. DevQA Platform Ecosystem — Planned
+## 🗺️ Roadmap
 
-## Technology Direction
+DevQA is planned as a 30+ feature engineering intelligence platform.
 
-DevQA is currently built around:
+Main future areas:
 
-- **Kotlin**
-- **IntelliJ Platform SDK**
-- **IntelliJ PSI / code analysis APIs**
-- **Swing / IntelliJ UI components**
-- **Spring Boot project analysis**
+- Architecture Intelligence
+- Dependency Intelligence
+- Security Analysis
+- Code Quality Analysis
+- Testing Intelligence
+- AI Explanation Engine
+- AI Fix Recommendations
+- Project Health Scoring
+- CI/CD Integration
 
-The architecture is being designed with clear feature boundaries so additional analysis engines can be added without turning the plugin into a tightly coupled codebase.
+---
 
-## Demo
+## 🛠 Technology Direction
 
-A working demo of the current Project Brain milestone is available here:
+Built with:
 
-**LinkedIn Demo:**  
-https://www.linkedin.com/posts/ahmedramadanmohamedsmaha_java-springboot-intellijidea-activity-7503421471629762560-otMz
+- Kotlin
+- IntelliJ Platform SDK
+- IntelliJ PSI APIs
+- Swing / IntelliJ UI Components
+- Spring Boot Analysis Engine
 
-## Source Code Availability
+---
 
-This repository is a **public product showcase** for DevQA.
+## 🔒 Source Code Availability
 
-The DevQA source code is currently maintained in a private repository and is **not distributed through this showcase repository**. Screenshots, product information, roadmap material, and demonstrations are provided here to document development progress and present the project publicly.
+This repository is a **public product showcase**.
 
-## Development Status
+The production source code is maintained privately. This repository contains project documentation, roadmap information, demonstrations, and showcase material.
 
-DevQA is actively under development.
+---
 
-The current focus is validating and hardening the first Project Brain milestone before continuing with the next major roadmap capability.
+## 📌 Development Status
+
+Current milestone:
+
+**Feature 1 — Project Brain**  
+Status: Testing & Validation
+
+The next phase focuses on improving analysis accuracy and preparing the foundation for the upcoming DevQA intelligence modules.
 
 ---
 
