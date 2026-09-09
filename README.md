@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/devqa-logo.png" width="180" />
+<img src="assets/devqa.png" width="180" />
 
 # DevQA
 
